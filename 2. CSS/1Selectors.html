@@ -4,36 +4,80 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Learning CSS</title>
+    <link rel="stylesheet" href="1Selectors.css" type="text/css">
 
     <style>
+
+        /* Universal Selector */
+        *
+        {
+            font-family: 'Courier New', Courier, monospace;
+        }
+
+        /* Element Selector */
         p
         {
             color: red;
             font-size: larger;
         }
 
+        /* Element Selector */
         h1
         {
             background-color: aqua;
         }
         
+        /* Class Selector */
         .blue
         {
             color: blue;
         }
 
+        /* Class Selector */
         .green
         {
             color:green
         }
 
+        /* Class Selector */
         .red
         {
             text-align: center;
         }
+
+        /* Class Selector */
+        .links:hover
+        {
+            color: green;
+        }
+
+        /* ID Selector */
+        #links:hover
+        {
+            color: pink;
+        }
+
+        /* Nested Selctor */
+        p, h1
+        {
+            font-weight: bold;
+        }
+
+        /* Nested Selector */
+        div p 
+        {
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
     </style>
 </head>
 <body>
+    <a class="links" href="https://thecodehelp.in"> This is the website </a>
+
+    <br/>
+    <br/>
+
+    <a id="links" href="https://thecodehelp.in"> This is the website </a>
+    
     <p> This is my paragraph </p>
 
     <h1> This is my heading </h1>
@@ -45,5 +89,11 @@
     <p class="green"> this is second class </p>
 
     <p class="red"> this is second class </p>
+
+    <div> 
+        <p> This is the example of nested Selector </p>
+    </div>
+
+    
 </body>
 </html>

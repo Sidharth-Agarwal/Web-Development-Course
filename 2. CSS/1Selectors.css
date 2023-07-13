@@ -1,0 +1,25 @@
+p
+{
+    color: purple;
+    font-size: larger;
+}
+
+h1
+{
+    background-color: aqua;
+}
+
+.blue
+{
+    color: gray;
+}
+
+.green
+{
+    color:pink;
+}
+
+.red
+{
+   columns: rgb(41, 70, 70);
+}
