@@ -23,3 +23,8 @@ h1
 {
    columns: rgb(41, 70, 70);
 }
+
+a
+{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
