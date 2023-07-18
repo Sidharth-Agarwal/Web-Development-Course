@@ -1,0 +1,38 @@
+p{
+    position: static;
+}
+
+div{
+    width: 200px;
+    height: 200px;
+    background-color: aqua;
+    border: 1px solid black;
+}
+
+.box{
+    position: relative;
+    left: 100px;
+    top: 15px;
+    margin: 2rem;
+}
+
+.boxs{
+    height: 100px;
+    width: 100px;
+    background-color: blue;
+    display: inline-block;
+}
+
+.big{
+    height: 2000px;
+    width: 100vw;
+    background-color: yellow;
+}
+
+#box1{
+    position: fixed;
+}
+
+#box4{
+    position: sticky;
+}
