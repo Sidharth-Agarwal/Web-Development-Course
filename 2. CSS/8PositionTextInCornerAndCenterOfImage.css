@@ -1,8 +1,31 @@
 img{
-    width: 300px;
+    width: 400px;
     height: auto;
 }
 
-div{
-    display: inline-block;
+.container{
+    position: relative;
+}
+
+.text{
+    color: #000000;
+}
+
+#lefttop{
+    position:absolute;
+    top: 8px;
+    left: 16px;
+}
+
+#leftbottom{
+    position:absolute;
+    bottom: 8px;
+    left: 16px;
+}
+
+#center{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
