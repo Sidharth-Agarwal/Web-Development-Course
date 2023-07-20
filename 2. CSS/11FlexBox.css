@@ -2,10 +2,21 @@
     height: 400px;
     border: 2px solid green;
     display: flex;
+    
+    /* Flex Direction */
+    flex-direction: row;
+    flex-direction: row-reverse;
+    flex-direction: column;
     flex-direction: column-reverse;
+
+    /* Flex Wrap */
+    flex-wrap: wrap-reverse;
+    flex-wrap: wrap;
+    flex-wrap: nowrap;
 }
 
 .box{
     border: 1px solid brown;
     background-color: aqua;
+    width: 50px;
 }
