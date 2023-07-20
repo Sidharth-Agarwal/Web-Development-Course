@@ -11,6 +11,6 @@ div{
 
 .scaled{
     margin-left: 200px;
-    transform: perspective(350px) scaleZ(6) rotateX(45deg) rotateY(30deg);
+    transform: perspective(100px) scaleZ(6) rotateX(45deg) rotateY(30deg);
     /* transform: rotateZ(30deg); */
 }
