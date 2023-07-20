@@ -16,7 +16,11 @@
 
     /* Justify Content */
     /* justify-content: flex-start; */
-    justify-content: flex-end;
+    /* justify-content: flex-end; */
+    /* justify-content: center; */
+    /* justify-content: space-around; */
+    /* justify-content: space-evenly; */
+    justify-content: space-between;
 }
 
 .box{
