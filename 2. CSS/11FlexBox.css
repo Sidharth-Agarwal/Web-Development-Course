@@ -4,15 +4,19 @@
     display: flex;
     
     /* Flex Direction */
-    flex-direction: row;
+    /* flex-direction: row;
     flex-direction: row-reverse;
     flex-direction: column;
-    flex-direction: column-reverse;
+    flex-direction: column-reverse; */
 
     /* Flex Wrap */
     flex-wrap: wrap-reverse;
-    flex-wrap: wrap;
-    flex-wrap: nowrap;
+    /* flex-wrap: wrap;
+    flex-wrap: nowrap; */
+
+    /* Justify Content */
+    /* justify-content: flex-start; */
+    justify-content: flex-end;
 }
 
 .box{
