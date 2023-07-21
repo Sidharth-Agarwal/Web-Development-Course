@@ -1,0 +1,14 @@
+.div1{
+    position: relative;
+    height: 200px;
+    width: 200px;
+    background-color: blue;
+}
+
+.div2{
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    transform: translateX(50%) translateY(50%);
+    background-color: red;
+}
