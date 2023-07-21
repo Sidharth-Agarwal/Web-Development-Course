@@ -31,11 +31,19 @@
 
     justify-content: center;
     align-items: center;
-    gap: 10px;
+    /* gap: 10px; */
+
+    /* Align Content */
+    /* align-content: flex-start;
+    align-content: flex-end;
+    align-content: center;
+    align-content: space-around;
+    align-content: space-evenly;
+    align-content: space-between; */
 }
 
 .box{
     border: 1px solid brown;
     background-color: aqua;
-    width: 50px;
+    width: 100px;
 }
