@@ -10,8 +10,8 @@
     flex-direction: column-reverse; */
 
     /* Flex Wrap */
-    flex-wrap: wrap-reverse;
-    /* flex-wrap: wrap;
+    flex-wrap: wrap;
+    /* flex-wrap: wrap-reverse;
     flex-wrap: nowrap; */
 
     /* Justify Content */
@@ -21,6 +21,12 @@
     /* justify-content: space-around; */
     /* justify-content: space-evenly; */
     justify-content: space-between;
+
+    align-items: flex-start;
+    align-items: flex-end;
+    align-items: center;
+    align-items: baseline;
+    align-items: stretch; /* Default value */
 }
 
 .box{
