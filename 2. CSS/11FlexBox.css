@@ -11,7 +11,7 @@
     flex-direction: column-reverse; */
 
     /* Flex Wrap */
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */ /* This was commented during trying shrink attribute */
     /* flex-wrap: wrap-reverse;
     flex-wrap: nowrap; */
 
