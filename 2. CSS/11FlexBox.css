@@ -1,3 +1,9 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 .container{
     height: 400px;
     border: 2px solid green;
@@ -5,13 +11,14 @@
     
     /* Flex Container Properties */
     /* Flex Direction */
-    /* flex-direction: row;
+    flex-direction: row;
+    /*
     flex-direction: row-reverse;
     flex-direction: column;
     flex-direction: column-reverse; */
 
     /* Flex Wrap */
-    /* flex-wrap: wrap; */ /* This was commented during trying shrink attribute */
+    flex-wrap: wrap; /* This was commented during trying shrink attribute */
     /* flex-wrap: wrap-reverse;
     flex-wrap: nowrap; */
 
@@ -42,15 +49,16 @@
     align-content: space-evenly;
     align-content: space-between; */
 
-    /* Flex Items Properties */
-
+    align-content: flex-start;
 }
 
+/* Flex Items Properties */
 .box{
     border: 1px solid brown;
     background-color: aqua;
     /* width: 100px; */
-    flex-basis: 100px;
+    width: 150px;
+    flex-basis: 50%;
 }
 
 #box1{
