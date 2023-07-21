@@ -27,6 +27,10 @@
     align-items: center;
     align-items: stretch;  Default value
     align-items: baseline; */
+
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
 }
 
 .box{
