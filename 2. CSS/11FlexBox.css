@@ -49,17 +49,19 @@
 .box{
     border: 1px solid brown;
     background-color: aqua;
-    width: 50px;
+    width: 100px;
     
 }
 
 #box1{
     order:1;
-    flex-grow: 2;
+    /* flex-grow: 2; */
+    flex-shrink: 4;
 }
 
 #box3{
     order:8;
-    flex-grow: 4;
+    /* flex-grow: 4; */
+    flex-shrink: 2;
 }
 
