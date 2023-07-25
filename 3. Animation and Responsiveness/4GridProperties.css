@@ -6,6 +6,7 @@
 
 .container{
     height: 700px;
+    width: 600px;
     border: 1px solid red;
     background-color: yellow;
 
@@ -24,12 +25,14 @@
     justify-content: space-around;
     justify-content: space-evenly; */
 
-
+    /* Align Items */
+    align-items: baseline;
+    align-items: stretch;
+    align-items: start;
+    align-items: end;
 }
 
 .box{
     border: 1px solid green;
     background-color: aqua;
-    /* height: 100px;
-    width: 100px; */
 }
