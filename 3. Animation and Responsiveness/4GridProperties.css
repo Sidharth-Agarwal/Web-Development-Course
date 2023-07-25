@@ -7,12 +7,12 @@
 .container{
     height: 700px;
     width: 600px;
-    border: 1px solid red;
+    border: 1px solid brown;
     background-color: yellow;
 
     display: grid;
 
-    gap: 10px;
+    /* gap: 10px; */
 
     grid-template-rows: 100px 100px;
     grid-template-columns: 100px 100px 100px;
@@ -26,13 +26,31 @@
     justify-content: space-evenly; */
 
     /* Align Items */
-    align-items: baseline;
+    /* align-items: baseline;
     align-items: stretch;
     align-items: start;
-    align-items: end;
+    align-items: end; */
+
+    /* Align Content */
+    /* align-content: space-between;
+    align-content: space-around; */
+
+    /* place-items: center; */
+
+    /* justify-items: center;
+    align-items: center; */
+    /* place-content: center; */
 }
 
 .box{
     border: 1px solid green;
     background-color: aqua;
+}
+
+#box1{
+    /* justify-self: start;
+    justify-self: end; */
+    /* justify-self: center; */
+    
+    /* align-self: center; */
 }
