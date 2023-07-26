@@ -42,13 +42,13 @@
     grid-area: ft;
 }
 
-@media(max-width:500px){
+@media(max-width:350px){
     .container{
-        gap: 4px;
+        gap: 2px;
 
-        grid-template-rows: 30px 1fr 30px;
-        grid-template-columns: 100px 400px;
+        grid-template-rows: 30px 1fr 1fr 30px;
+        grid-template-columns: 1fr;
 
-        grid-template-areas: "hd hd" "side main" "ft ft";
+        grid-template-areas: "hd" "side" "main" "ft ";
     }
 } 
