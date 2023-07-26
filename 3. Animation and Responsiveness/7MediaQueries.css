@@ -41,3 +41,9 @@
 #footer{
     grid-area: ft;
 }
+
+@media(max-width:400px){
+    .container{
+        grid-gap: 100px;
+    }
+}
