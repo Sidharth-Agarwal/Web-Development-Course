@@ -12,4 +12,15 @@
     height: 150px;
     width: 150px;
     margin: 20px;
+
+    /* transition: 2s; */
+    transition-property: background-color;
+    transition-delay: 5s;
+
+    transition: background-color 1s ease 3s;
+}
+
+.box:hover{
+    background-color: brown;
+    /* transform: rotate(45deg); */
 }
