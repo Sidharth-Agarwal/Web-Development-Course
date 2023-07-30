@@ -25,4 +25,6 @@
 .box:hover{
     /* background-color: brown;
     transform: rotate(45deg); */
+    
+    transform: translateX(50px);
 }
