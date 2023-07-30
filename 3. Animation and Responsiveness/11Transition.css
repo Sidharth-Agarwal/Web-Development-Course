@@ -14,10 +14,11 @@
     margin: 20px;
 
     /* transition: 2s; */
-    transition-property: background-color;
+    /* transition-property: background-color;
     transition-delay: 5s;
 
-    transition: background-color 1s ease 3s;
+    transition: background-color 1s ease 3s; */
+    
 }
 
 .box:hover{
