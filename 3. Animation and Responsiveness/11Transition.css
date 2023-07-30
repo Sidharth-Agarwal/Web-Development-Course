@@ -20,11 +20,13 @@
     transition: background-color 1s ease 3s; */
     /* transition: transform 5s ease 1s; */
     /* transition: all 200ms ease; */
+    /* transition: transform 3s ease-in; */
+    transition: transform 3s cubic-bezier(0.42, 0, 0.55, 1.04);
 }
 
 .box:hover{
     /* background-color: brown;
     transform: rotate(45deg); */
     
-    transform: translateX(50px);
+    transform: translateX(500px);
 }
