@@ -18,10 +18,11 @@
     transition-delay: 5s;
 
     transition: background-color 1s ease 3s; */
-    transition: transform 5s ease 1s;
+    /* transition: transform 5s ease 1s; */
+    /* transition: all 200ms ease; */
 }
 
 .box:hover{
-    /* background-color: brown; */
-    transform: rotate(45deg);
+    /* background-color: brown;
+    transform: rotate(45deg); */
 }
