@@ -21,7 +21,12 @@
     /* transition: transform 5s ease 1s; */
     /* transition: all 200ms ease; */
     /* transition: transform 3s ease-in; */
-    transition: transform 3s cubic-bezier(0.42, 0, 0.55, 1.04);
+    /* transition: transform 3s cubic-bezier(0.42, 0, 0.55, 1.04); */
+
+    transition-property: transform;
+    transition-duration: 3s;
+    transition-delay: 1s;
+    transition-timing-function: cubic-bezier(0.42, 0, 0.55, 1.04);
 }
 
 .box:hover{
