@@ -8,6 +8,9 @@
   scroll-behavior: smooth;
 }
 
+:root{
+    --bgOrange:#e84949;
+}
 
 .wrapper{
     height: 100vh;
@@ -63,6 +66,6 @@ a{
 }
 
 .nav-items div:hover{
-    transition: all 1s;
+    transition:0.8s;
     font-weight: bold;
 }
