@@ -32,7 +32,7 @@
     align-items: center;
 }
 
-.nav-items{
+.nav{
     display: flex;
     gap: 2rem;
     padding: 0 4rem;
