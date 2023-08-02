@@ -1,8 +1,13 @@
+@import url("https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@300&display=swap");
+
 *{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  font-family: "Be Vietnam Pro", sans-serif;
+  scroll-behavior: smooth;
 }
+
 
 .wrapper{
     height: 100vh;
@@ -55,4 +60,9 @@
 
 a{
     text-decoration: none;
+}
+
+.nav-items div:hover{
+    transition: all 1s;
+    font-weight: bold;
 }
