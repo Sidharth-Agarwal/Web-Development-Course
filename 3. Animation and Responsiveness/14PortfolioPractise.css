@@ -239,3 +239,27 @@ a{
     }
 }
 
+.icon-circle{
+    z-index: 9;
+    left: 0;
+    bottom: 0;
+    animation-name: shakeEffect;
+    animation-duration: 6s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+@keyframes shakeEffect{
+    0%{
+        left: 0;
+        bottom: 0;
+    }
+    50%{
+        left: 5%;
+        bottom: 10%;
+    }
+    100%{
+        left: 0;
+        bottom: 0;
+    }
+}
