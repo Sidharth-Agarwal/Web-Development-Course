@@ -21,3 +21,13 @@
     align-items: center;
     padding-top: 1 rem;
 }
+
+.logo{
+    width: 80px;
+}
+
+.logo-container{
+    display: flex;
+    /* justify-content: baseline; */
+    align-items: center;
+}
