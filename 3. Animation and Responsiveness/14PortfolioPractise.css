@@ -278,3 +278,16 @@ a{
     }
 }
 
+.icon-plus{
+    z-index: 9;
+    top: -0.8rem;
+    left: 50%;
+    animation: shakeEffectPlus 5s ease-in infinite;
+}
+
+@keyframes shakeEffectPlus{
+    50%{
+        top: 3%;
+        left: 48%;
+    }
+}
