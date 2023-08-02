@@ -37,3 +37,22 @@
     gap: 2rem;
     padding: 0 4rem;
 }
+
+.logo-text{
+    margin-left: -1.2rem;
+    font-size: 28px;
+}
+
+.nav-items div{
+    font-size: 20px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.nav-items div a{
+    color: black;
+}
+
+a{
+    text-decoration: none;
+}
