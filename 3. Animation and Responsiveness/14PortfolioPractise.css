@@ -263,3 +263,18 @@ a{
         bottom: 0;
     }
 }
+
+.icon-zigzag{
+    z-index: 9;
+    top: 1.5em;
+    left: -0.3em;
+    animation: zigzagAnimtion 5s ease-in infinite;
+}
+
+@keyframes zigzagAnimtion{
+    50%{
+        left: 5%;
+        top: 2%;
+    }
+}
+
