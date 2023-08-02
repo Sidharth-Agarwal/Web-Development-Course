@@ -97,3 +97,19 @@ a{
     justify-content: center;
     gap: 2rem;
 }
+
+.hero-section-heading{
+    font-size: 35px;
+    color: #343d68;
+    font-weight: 500;
+}
+
+.role{
+    font-weight: 800;
+    color: #4e45d5;
+}
+
+.hero-section-sub-heading{
+    font-size: 45px;
+    line-height: 45px;
+}
