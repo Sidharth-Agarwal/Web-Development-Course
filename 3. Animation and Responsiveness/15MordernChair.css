@@ -276,3 +276,45 @@ h5{
     margin-bottom: 20px;
 }
 
+.desc-btn:checked + label,
+.desc-btn:not(:checked) + label {
+    position: relative;
+    transition: all 200ms linear;
+    display: inline-block;
+    border: none;
+    cursor: pointer;
+    color: #ffeba7;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 1.2;
+    color: #fff;
+    margin-right: 25px;
+    opacity: 0.5;
+}
+
+.desc-btn:checked + label{
+    opacity: 1;
+}
+
+.desc-btn:not(:checked) + label:hover{
+    opacity: 0.8;
+}
+
+.desc-sec{
+    padding-top: 20px;
+    padding-bottom: 30px;
+    transition: all 250ms linear;
+    opacity: 0;
+    overflow: hidden;
+    pointer-events: none;
+    transform: translateY(20px);
+}
+
+.desc-sec.accor-2{
+    position: absolute;
+    top: 25px;
+    left: 0;
+    width: 100%;
+    z-index: 2;
+}
