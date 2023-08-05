@@ -1,6 +1,5 @@
 @import url("https://fonts.googleapis.com/css?family=Poppins:400,500,600,700,800,900");
 
-
 *,*::before,*::after{
     margin: 0;
     padding: 0;
@@ -74,5 +73,25 @@ p{
 .color-btn:checked + label{
     border-color: #434343;
     transform: scale(1.1);
+}
+
+label.first-color{
+    margin-left: 500px;
+    background-image: url("../Resources/4 Modern Chair/color1.jpg");
+}
+label.color-2{
+    background-image: url("../Resources/4 Modern Chair/color2.jpg");
+}
+label.color-3{
+    background-image: url("../Resources/4 Modern Chair/color3.jpg");
+}
+label.color-4{
+    background-image: url("../Resources/4 Modern Chair/color4.jpg");
+}
+label.color-5{
+    background-image: url("../Resources/4 Modern Chair/color5.jpg");
+}
+label.color-6{
+    background-image: url("../Resources/4 Modern Chair/color6.jpg");
 }
 
