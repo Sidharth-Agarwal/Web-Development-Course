@@ -267,3 +267,12 @@ h4 span{
     opacity: 0.6;
     padding-left: 15px;
 }
+
+h5{
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 1.2;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
