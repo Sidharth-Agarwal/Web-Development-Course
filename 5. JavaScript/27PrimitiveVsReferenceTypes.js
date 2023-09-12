@@ -16,6 +16,7 @@ c.value++;
 console.log(c.value);
 console.log(d.value);
 
+// Primitive Types
 let e = 10;
 
 function inc(e)
@@ -25,3 +26,14 @@ function inc(e)
 
 inc(e);
 console.log(e);
+
+// Reference Types
+let f = {value:10};
+
+function inc2(f)
+{
+    f.value++;
+}
+
+inc2(f);
+console.log(f.value);
