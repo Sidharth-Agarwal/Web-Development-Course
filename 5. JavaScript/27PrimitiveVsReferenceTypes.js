@@ -15,3 +15,13 @@ c.value++;
 
 console.log(c.value);
 console.log(d.value);
+
+let e = 10;
+
+function inc(e)
+{
+    e++;
+}
+
+inc(e);
+console.log(e);
