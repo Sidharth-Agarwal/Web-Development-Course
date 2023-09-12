@@ -11,7 +11,7 @@ function CreateRectangle(){
     }
 }
 
-let rectangleObject = new Rectangle();
+let rectangleObject = new CreateRectangle();
 
 // function CreateRectangle(len,bre){
 //     this.length = len;

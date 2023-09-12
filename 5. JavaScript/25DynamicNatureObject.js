@@ -6,6 +6,6 @@ function CreateRectangle(len,bre){
     }
 }
 
-let rectangleObject = new Rectangle(4,5);
+let rectangleObject = new CreateRectangle(4,5);
 rectangleObject.color = 'yellow';
 delete rectangleObject.color;
