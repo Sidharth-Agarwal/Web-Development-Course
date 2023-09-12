@@ -4,11 +4,11 @@ let rectangle = {
     breadth: 2,
 
     draw:function() {
-        console.log('draw');
+        console.log('drawing a rectangle');
     }
 };
 
 // Empty Object
 let a = {
-    
+
 };
