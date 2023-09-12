@@ -7,3 +7,8 @@ let rectangle = {
         console.log('draw');
     }
 };
+
+// Empty Object
+let a = {
+    
+};
