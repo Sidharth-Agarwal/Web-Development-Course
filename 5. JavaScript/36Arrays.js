@@ -1,5 +1,6 @@
 // This was for the example of primitives
 
+// Inserting Elements
 let numbers = [1,4,5,7];
 console.log(numbers);
 
@@ -24,3 +25,18 @@ console.log(numbers.includes(5));
 
 // This is advanced search
 console.log(numbers.indexOf(4,8));
+
+// Remove Elements
+let numbers2 = [1,2,3,4,5,6];
+
+// Removing from end
+numbers2.pop();
+console.log(numbers2);
+
+// Removing from start
+numbers2.shift();
+console.log(numbers2);
+
+// Removing from the beginning
+numbers2.splice(2,1);
+console.log(numbers2);
