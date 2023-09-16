@@ -22,4 +22,3 @@ console.log(person.fullName);
 // Getter and Setter
 // getter -> access properties
 // setter -> change or mutate properties
-
