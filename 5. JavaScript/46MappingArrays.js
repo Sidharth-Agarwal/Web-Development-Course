@@ -6,3 +6,7 @@ let items = numbers.map(function(value){
 });
 
 console.log(items);
+
+let items2 = numbers.map(value => 'student_no' + value);
+
+console.log(items2);
