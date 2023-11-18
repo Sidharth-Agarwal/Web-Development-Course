@@ -1,0 +1,15 @@
+{
+  "name": "web-development-course",
+  "version": "1.0.0",
+  "description": "This is the repository which comprises of all the projects and programs done by me during the WEB DEVELOPEMENT course by LOVE BABBAR.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "npx tailwindcss -i input.css -o output.css --watch"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.3.5"
+  }
+}
