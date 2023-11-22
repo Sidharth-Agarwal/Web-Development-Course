@@ -21,6 +21,9 @@ module.exports = {
       },
       backgroundImage: {
         feature: "url('/Resources/7 Razorpay/feature-section-2BG.svg')",
+        new: "url('/Resources/7 Razorpay/instant-settlement-bg.svg')",
+        hover: "url('/Resources/7 Razorpay/instant-settlement-bg.svg')",
+        core: "url('/Resources/7 Razorpay/core-features-sectionBg.svg')"
       },
     },
   },

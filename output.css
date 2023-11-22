@@ -592,8 +592,16 @@ video {
   right: -180px;
 }
 
+.-right-\[3\.5rem\] {
+  right: -3.5rem;
+}
+
 .-top-\[142px\] {
   top: -142px;
+}
+
+.-top-\[6rem\] {
+  top: -6rem;
 }
 
 .-top-\[8rem\] {
@@ -610,6 +618,10 @@ video {
 
 .left-\[10rem\] {
   left: 10rem;
+}
+
+.left-\[300px\] {
+  left: 300px;
 }
 
 .right-0 {
@@ -634,6 +646,14 @@ video {
 
 .top-\[3rem\] {
   top: 3rem;
+}
+
+.z-0 {
+  z-index: 0;
+}
+
+.z-10 {
+  z-index: 10;
 }
 
 .z-20 {
@@ -679,6 +699,10 @@ video {
   margin-bottom: 3.5rem;
 }
 
+.mb-24 {
+  margin-bottom: 6rem;
+}
+
 .mb-3 {
   margin-bottom: 0.75rem;
 }
@@ -715,10 +739,6 @@ video {
   margin-top: 190px;
 }
 
-.mb-24 {
-  margin-bottom: 6rem;
-}
-
 .block {
   display: block;
 }
@@ -747,6 +767,10 @@ video {
   height: 0.25rem;
 }
 
+.h-10 {
+  height: 2.5rem;
+}
+
 .h-12 {
   height: 3rem;
 }
@@ -771,6 +795,10 @@ video {
   height: 100%;
 }
 
+.max-h-\[300px\] {
+  max-height: 300px;
+}
+
 .min-h-\[15rem\] {
   min-height: 15rem;
 }
@@ -781,6 +809,10 @@ video {
 
 .min-h-\[520px\] {
   min-height: 520px;
+}
+
+.w-10 {
+  width: 2.5rem;
 }
 
 .w-10\/12 {
@@ -825,6 +857,10 @@ video {
 
 .w-\[20px\] {
   width: 20px;
+}
+
+.w-\[233px\] {
+  width: 233px;
 }
 
 .w-\[270px\] {
@@ -929,6 +965,15 @@ video {
 
 .gap-4 {
   gap: 1rem;
+}
+
+.gap-x-4 {
+  -moz-column-gap: 1rem;
+       column-gap: 1rem;
+}
+
+.gap-y-10 {
+  row-gap: 2.5rem;
 }
 
 .gap-y-6 {
@@ -1049,6 +1094,10 @@ video {
 
 .bg-feature {
   background-image: url('/Resources/7 Razorpay/feature-section-2BG.svg');
+}
+
+.bg-new {
+  background-image: url('/Resources/7 Razorpay/instant-settlement-bg.svg');
 }
 
 .bg-cover {
@@ -1174,6 +1223,11 @@ video {
   line-height: 2rem;
 }
 
+.text-4xl {
+  font-size: 2.25rem;
+  line-height: 2.5rem;
+}
+
 .text-\[1\.375rem\] {
   font-size: 1.375rem;
 }
@@ -1196,6 +1250,11 @@ video {
 
 .text-\[40px\] {
   font-size: 40px;
+}
+
+.text-lg {
+  font-size: 1.125rem;
+  line-height: 1.75rem;
 }
 
 .text-sm {
@@ -1238,6 +1297,14 @@ video {
 
 .leading-\[1\.2\] {
   line-height: 1.2;
+}
+
+.leading-\[3\.375rem\] {
+  line-height: 3.375rem;
+}
+
+.leading-normal {
+  line-height: 1.5;
 }
 
 .text-\[\#0398d4\] {
@@ -1309,9 +1376,19 @@ video {
   transition-duration: 200ms;
 }
 
+.hover\:scale-105:hover {
+  --tw-scale-x: 1.05;
+  --tw-scale-y: 1.05;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
 .hover\:bg-lightBlue500:hover {
   --tw-bg-opacity: 1;
   background-color: rgb(11 114 231 / var(--tw-bg-opacity));
+}
+
+.hover\:bg-hover:hover {
+  background-image: url('/Resources/7 Razorpay/instant-settlement-bg.svg');
 }
 
 .hover\:text-lightBlue:hover {
