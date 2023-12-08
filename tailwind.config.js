@@ -6,6 +6,7 @@ module.exports = {
     {
       fontFamily: {
         mullish: ["Mulish", "sans-serif"],
+        zerodha: ["Inter","serif"],
       },
       colors: {
         deepBlue: "#02042a",
